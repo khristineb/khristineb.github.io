@@ -10,6 +10,14 @@ body {
 
 }
 
+.image-grid img {
+  transition: transform 0.5s ease;
+}
+
+.image-grid img:hover {
+  transform: scale(1.1);
+}
+
 /* Hamburger Menu from w3 schools */
 .topnav {
   overflow: hidden;
