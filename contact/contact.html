@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <!-- Hamburger Menu from w3 schools -->
+  <!-- Top navigation -->
+  <div class="topnav" id="myTopnav">
+    <a href="../index.html" class="active">Mia Rodriguez</a>
+    <a href="https://www.instagram.com/"><i class="fa fa-instagram" style="font-size:24px"></i></a>
+    <a href="../contact/contact.html">CONTACT</a>
+    <a href="../about/about.html">ABOUT</a>
+    <a href="../index.html">WORK</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <section class="contact-info">
+    <div class="contact-text">
+      <p>
+        Connect with Mia Rodriguez Photography to transform your culinary experiences into captivating visual journeys.
+      </p>
+      <p class="email">miarodriguez@gmail.com</p>
+    </div>
+    <div class="contact-forms">
+      <form action="/submit_form" method="post">
+        <div class="name-fields">
+          <div class="field">
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+          </div>
+          <div class="field">
+            <label for="lname">Last Name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+          </div>
+        </div>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="Website">Website:</label><br>
+        <input type="text" id="website" name="website"><br>
+        <label for="deadline">Project Deadline:</label><br>
+        <input type="date" id="deadline" name="deadline"><br>
+        <label for="business">Tell me about your brand:</label><br>
+        <textarea id="business" name="business"></textarea><br>
+        <label for="needs">Any photography needs?</label><br>
+        <textarea id="needs" name="needs"></textarea><br>
+        <input class="submit"type="submit" value="Submit">
+      </form>
+    </div>
+  </section>
+ 
+  <p class="copyright">&copy Mia Rodriguez 2024</p>
+  
+
+  </div>
+  
+  <!-- Content below the topnav -->
+  <!-- JavaScript -->
+  <script>
+    function myFunction() {
+      var topnav = document.getElementById("myTopnav");
+      var content = document.getElementById("myContent");
+      if (topnav.className === "topnav") {
+        topnav.className += " responsive";
+        content.className += " down"; // Add class to move content down
+      } else {
+        topnav.className = "topnav";
+        content.className = "content"; // Reset content class
+      }
+    }
+  </script>
+</body>
+</html>

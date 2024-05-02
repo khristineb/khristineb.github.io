@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mia Rodriguez</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <!-- Hamburger Menu from w3 schools -->
+  <!-- Top navigation -->
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Mia Rodriguez</a>
+    <a href="https://www.instagram.com/"><i class="fa fa-instagram" style="font-size:24px"></i></a>
+    <a href="contact/contact.html">CONTACT</a>
+    <a href="about/about.html">ABOUT</a>
+    <a href="index.html">WORK</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <!-- Photo Grid -->
+  <section class="image-grid">
+    <div class="image-item">
+      <img src="img/image1.jpg" alt="">
+    </div>
+    <div class="image-item">
+      <img src="img/image2.jpg" alt="">
+    </div>
+    <div class="image-item">
+      <img src="img/image3.jpg" alt="">
+    </div>
+    <div class="image-item">
+      <img src="img/image4.jpg" alt="">
+    </div>
+    <div class="image-item">
+      <img src="img/image5.jpg" alt="">
+    </div>
+    <div class="image-item">
+      <img src="img/image6.jpg" alt="">
+    </div>
+  </section>
+  <br><br>
+
+    <div class="quote-container">
+      <p>WHERE FOOD MEETS ART</p>
+      <p>COOKING UP RECIPES WITH A COLLECTION OF STORIES</p>
+    </div>
+
+  <br><br>
+    <section class="image-grid">
+      <div class="image-item">
+        <img src="img/image7.jpg" alt="">
+      </div>
+      <div class="image-item">
+        <img src="img/image8.jpg" alt="">
+      </div>
+      <div class="image-item">
+        <img src="img/image9.jpg" alt="">
+      </div>
+      <div class="image-item">
+        <img src="img/image10.jpg" alt="">
+      </div>
+      <div class="image-item">
+        <img src="img/image11.jpg" alt="">
+      </div>
+      <div class="image-item">
+        <img src="img/image12.jpg" alt="">
+      </div>
+    </section>
+    <br><br>
+
+    <div class="quote-container2">
+      <p>STORYTELLING IN A WHOLE NEW WAY</p>
+      <p>BRINGING OUT THE FLAVOR WHILE CREATING DELICIOUS MASTERPIECES</p>
+    </div>
+    <br><br>
+
+    <section class="image-grid">
+      <div class="image-item">
+        <img src="img/image13.jpg" alt="">
+      </div>
+      <div class="image-item">
+        <img src="img/image14.jpg" alt="">
+      </div>
+      <div class="image-item">
+        <img src="img/image15.jpg" alt="">
+      </div>
+      <div class="image-item">
+        <img src="img/image16.jpg" alt="">
+      </div>
+      <div class="image-item">
+        <img src="img/image17.jpg" alt="">
+      </div>
+      <div class="image-item">
+        <img src="img/image18.jpg" alt="">
+      </div>
+    </section>
+
+   <footer class="intro-container">
+      <div class="intro-text">
+        <p>PRESENTING MIA RODRIGUEZ: CAPTURING CULINARY STORIES THROUGH VIBRANT PHOTOGRAPHY. 
+          GOT A PROJECT? 
+          LET'S WORK TOGETHER!</p>
+        </div>
+        <a href="contact/contact.html" class="button">CONTACT ME</a>
+          <img src="img/mia.jpg" alt="a picture of a random girl holding a camera">
+   </footer>
+
+   <p class="copyright">&copy Mia Rodriguez 2024</p>
+  <!-- Content below the topnav -->
+  <!-- JavaScript -->
+  <script>
+    function myFunction() {
+      var topnav = document.getElementById("myTopnav");
+      var content = document.getElementById("myContent");
+      if (topnav.className === "topnav") {
+        topnav.className += " responsive";
+        content.className += " down"; // Add class to move content down
+      } else {
+        topnav.className = "topnav";
+        content.className = "content"; // Reset content class
+      }
+    }
+  </script>
+</body>
+</html>
